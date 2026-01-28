@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR - Emisoras de Radio</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: linear-gradient(to bottom, #000, #333); color: white; margin: 0; padding: 20px; text-align: center; }
+        h1 { font-size: 3em; margin-bottom: 50px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .radios { display: flex; justify-content: center; gap: 50px; flex-wrap: wrap; margin-bottom: 100px; }
+        .radio { position: relative; }
+        .radio-nombre { font-size: 1.5em; font-weight: bold; margin-bottom: 10px; }
+        .logo { width: 200px; height: 200px; border-radius: 50%; border: 5px solid #ff6600; object-fit: cover; box-shadow: 0 10px 20px rgba(255,102,0,0.5); transition: transform 0.3s; }
+        .logo:hover { transform: scale(1.1); }
+        .player { margin-top: 20px; width: 200px; }
+        #hitparade { background: rgba(255,255,255,0.1); padding: 40px; border-radius: 20px; max-width: 800px; margin: 0 auto; }
+        #hitparade h2 { font-size: 2.5em; margin-bottom: 30px; }
+        ul { list-style: none; padding: 0; }
+        li { font-size: 1.2em; margin: 10px 0; }
+        @media (max-width: 768px) { .radios { flex-direction: column; align-items: center; gap: 40px; } .logo { width: 150px; height: 150px; } }
+    </style>
+</head>
+<body>
+    <h1>OCR</h1>
+    
+    <div class="radios">
+        <div class="radio">
+            <div class="radio-nombre">Radio 1</div>
+            <img src="https://via.placeholder.com/200/ff6600/ffffff?text=R1" alt="Logo Radio 1" class="logo">
+            <audio class="player" controls>
+                <source src="TU_STREAM_RADIO1.mp3;" type="audio/mpeg">
+                Tu navegador no soporta audio.
+            </audio>
+        </div>
+        
+        <div class="radio">
+            <div class="radio-nombre">Radio 2</div>
+            <img src="https://via.placeholder.com/200/0066ff/ffffff?text=R2" alt="Logo Radio 2" class="logo">
+            <audio class="player" controls>
+                <source src="TU_STREAM_RADIO2.mp3;" type="audio/mpeg">
+                Tu navegador no soporta audio.
+            </audio>
+        </div>
+        
+        <div class="radio">
+            <div class="radio-nombre">Radio 3</div>
+            <img src="https://via.placeholder.com/200/00ff66/000000?text=R3" alt="Logo Radio 3" class="logo">
+            <audio class="player" controls>
+                <source src="TU_STREAM_RADIO3.mp3;" type="audio/mpeg">
+                Tu navegador no soporta audio.
+            </audio>
+        </div>
+    </div>
+    
+    <section id="hitparade">
+        <h2>HIT PARADE</h2>
+        <ul>
+            <li>1. Canción Top 1 - Artista</li>
+            <li>2. Canción Top 2 - Artista</li>
+            <li>3. Canción Top 3 - Artista</li>
+            <!-- Agrega más aquí -->
+        </ul>
+    </section>
+</body>
+</html>
