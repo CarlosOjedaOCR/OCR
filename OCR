@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OCR - Emisoras de Radio</title>
+    <title>OCR - Coorporacion Radial</title>
     <style>
         body { font-family: Arial, sans-serif; background: linear-gradient(to bottom, #000, #333); color: white; margin: 0; padding: 20px; text-align: center; }
         h1 { font-size: 3em; margin-bottom: 50px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
@@ -25,8 +25,8 @@
     
     <div class="radios">
         <div class="radio">
-            <div class="radio-nombre">Radio 1</div>
-            <img src="https://via.placeholder.com/200/ff6600/ffffff?text=R1" alt="Logo Radio 1" class="logo">
+            <div class="radio-nombre">Radio Net</div>
+            <img src="https://via.placeholder.com/200/ff6600/ffffff?text=R1" alt="LOGO RADIO NET CON FILO BLANCO.png" class="logo">
             <audio class="player" controls>
                 <source src="TU_STREAM_RADIO1.mp3;" type="audio/mpeg">
                 Tu navegador no soporta audio.
@@ -34,8 +34,8 @@
         </div>
         
         <div class="radio">
-            <div class="radio-nombre">Radio 2</div>
-            <img src="https://via.placeholder.com/200/0066ff/ffffff?text=R2" alt="Logo Radio 2" class="logo">
+            <div class="radio-nombre">Radio Memorias</div>
+            <img src="https://via.placeholder.com/200/0066ff/ffffff?text=R2" alt="LOGO RADIO MEMORIAS CON FILO BLANCO.png" class="logo">
             <audio class="player" controls>
                 <source src="TU_STREAM_RADIO2.mp3;" type="audio/mpeg">
                 Tu navegador no soporta audio.
@@ -43,8 +43,8 @@
         </div>
         
         <div class="radio">
-            <div class="radio-nombre">Radio 3</div>
-            <img src="https://via.placeholder.com/200/00ff66/000000?text=R3" alt="Logo Radio 3" class="logo">
+            <div class="radio-nombre">Radio Antena Caliente</div>
+            <img src="https://via.placeholder.com/200/00ff66/000000?text=R3" alt="LOGO ANTENA CALIENTE PGN.png" class="logo">
             <audio class="player" controls>
                 <source src="TU_STREAM_RADIO3.mp3;" type="audio/mpeg">
                 Tu navegador no soporta audio.
